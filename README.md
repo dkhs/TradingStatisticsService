@@ -44,6 +44,10 @@ TSS1001e4ItemsTest - longer running test with 100010000 prices
 ### Building the Project
 
 To build the project, navigate to the project root directory and run:
+```bash
+mvn clean install -DskipTests
+```
+or with full set of tests
 
 ```bash
 mvn clean install
